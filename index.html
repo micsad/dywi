@@ -26,6 +26,7 @@
               <tr>
                   <th>No</th>
                   <th>Name</th>
+                  <th>Payout</th>
                   <th>Yield</th>
                   <th>Ratio</th>
                   <th>Ex Date</th>
@@ -36,6 +37,7 @@
           <tr ng-repeat="x in dividends | filter:query">
             <td>{{$index + 1}}</td>  
             <td>{{ x.company }}</td>
+              <td>{{ x.payout }}</td>  
             <td>{{ x.yield }}</td>
             <td>{{ x.payoutRatio }}</td>
             <td>{{ x.exDate }}</td>
