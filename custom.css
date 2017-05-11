@@ -4,6 +4,6 @@ color: white;
 padding: 25px 25px;
 }
 
-td:hover {
+tr:hover {
 background-color: lightgrey;
 }
