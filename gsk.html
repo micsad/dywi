@@ -15,7 +15,7 @@
             </div>
             <div class="jumbotron text-left">
                 <h1>GlaxoSmithKlein</h1>
-                <h2>GSK</h2>
+                <h2>GSK dividend 2017</h2>
             </div> 
         <div class="container">    
             <div class="row">
@@ -23,6 +23,23 @@
                 Payout: {{ dividends[0].payout }}
                 </div>
                 <div class="col">
+                Yield: {{ dividends[0].yield }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" ng-controller='divCtrl'>
+                Payout ratio: {{ dividends[0].payoutRadio }}
+                </div>
+                <div class="col">
+                Payout Dield: {{ dividends[0].payoutDate }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" ng-controller='divCtrl'>
+                Ex-date: {{ dividends[0].exDate }}
+                </div>
+                <div class="col">
+               Check past dividends from GSK
                 </div>
             </div>
         </div>
