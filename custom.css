@@ -1,17 +1,25 @@
 .jumbotron {
-background-color: seagreen;
+background-color: orangered;
 color: white;
 padding: 25px 25px;
 }
+
+.jumbo-inline-block {
+  display: inline-block;
+}  
 
 tr:hover {
 background-color: lightgrey;
 }
 
-.btn-success {
+.flag {
   font-weight: bold;
   border: 1px solid black;
   color: white;
+  background-color: orangered;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
 }
 
 .value {
