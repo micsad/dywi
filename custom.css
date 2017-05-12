@@ -22,6 +22,6 @@ background-color: lightgrey;
 
 .valueCard {
   padding: 20px 40px 20px 40px;
-  border: 1px dotted black;
+  /** border: 1px dotted black; **/
   display: inline-block
 }
