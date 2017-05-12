@@ -1,12 +1,12 @@
 .jumbotron {
 background-color: orangered;
 color: white;
-padding: 25px 25px;
+padding: 5px 5px;
 }
 
 .jumbo-inline-block {
   display: inline-block;
-  border: 1px solid black;;
+  border: 1px solid black;
 }  
 
 tr:hover {
