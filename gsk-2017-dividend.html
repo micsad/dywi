@@ -19,8 +19,11 @@
             </div> 
         <div class="container">    
             <div class="row">
-                <div class="col" ng-controller='divCtrl'>
-                Payout: {{ dividends[0].payout }}
+                <div class="valueCard">
+                    <div class="col" ng-controller='divCtrl'>
+                        <div class="btn btn-success btn-lg">Payout:</div>
+                        <div><span class="value">{{ dividends[0].payout }}</span>per share</div>
+                    </div>
                 </div>
                 <div class="col">
                 Yield: {{ dividends[0].yield }}
