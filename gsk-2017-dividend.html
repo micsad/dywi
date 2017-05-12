@@ -33,12 +33,16 @@
                 </div>    
             </div>
             <div class="row">
-                <div class="col" ng-controller='divCtrl'>
-                Payout ratio: {{ dividends[0].payoutRatio }}
-                </div>
-                <div class="col">
-                Payout Yield: {{ dividends[0].payoutDate }}
-                </div>
+                <div class="valueCard"> 
+                    <div class="col">
+                        <div class="flag">Payout ratio:</div>
+                        <div><span class="value">{{ dividends[0].payoutRatio }}</span>of the company's year-end profit</div>
+                    </div>                
+                    <div class="col">
+                        <div class="flag">Payout Yield:</div>
+                        <div><span class="value">{{ dividends[0].payoutDate }}</span></div>
+                    </div>
+                </div>    
             </div>
             <div class="row">
                 <div class="col" ng-controller='divCtrl'>
