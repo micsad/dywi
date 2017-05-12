@@ -7,3 +7,21 @@ padding: 25px 25px;
 tr:hover {
 background-color: lightgrey;
 }
+
+.btn-success {
+  font-weight: bold;
+  border: 1px solid black;
+  color: white;
+}
+
+.value {
+  padding: 50px 0px 50px 50px;
+  font-size: 600%;
+  font-weight: bold;
+  }
+
+.valueCard {
+  padding: 20px 40px 20px 40px;
+  border: 1px dotted black;
+  display: inline-block
+}
