@@ -34,3 +34,7 @@ background-color: lightgrey;
   /** border: 1px dotted black; **/
   display: inline-block
 }
+
+.company-logo {
+width: 300px;
+}
