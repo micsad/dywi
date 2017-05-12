@@ -20,14 +20,17 @@
         <div class="container">    
             <div class="row">
                 <div class="valueCard">
-                    <div class="col" ng-controller='divCtrl'>
+                    <div class="col">
                         <div class="btn btn-success btn-lg">Payout:</div>
                         <div><span class="value">{{ dividends[0].payout }}</span>per share</div>
                     </div>
                 </div>
-                <div class="col">
-                Yield: {{ dividends[0].yield }}
-                </div>
+                <div class="valueCard">    
+                    <div class="col">
+                        <div class="btn btn-success btn-lg">Yield:</div>
+                        <div><span class="value">{{ dividends[0].yield }} of the share price on the day the dividend was announded</span></div>
+                    </div>
+                </div>    
             </div>
             <div class="row">
                 <div class="col" ng-controller='divCtrl'>
