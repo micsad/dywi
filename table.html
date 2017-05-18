@@ -7,18 +7,18 @@
 <table class="table">
           <thead>
               <tr>
-                  <th>Name</th>
-                  <th>Payout</th>
-                  <th>Yield</th>
-                  <th>Declared on</th>
-                  <th>Ex Date</th>
-                  <th>Payout Date</th>
+                  <th>Firma</th>
+                  <th>Kwota dywidendy</th>
+                  <th>Stopa dywidendy</th>
+                  <th>Dzień ustalenia</th>
+                  <th>Dzień dywidendy</th>
+                  <th>Dzień wypłaty</th>
                   <th>Status</th>
               </tr>
           </thead>
           <tbody>
           <tr ng-repeat="x in dividends2017 | filter:query">
-            <td>{{ x.company }}</td>
+              <td><a href="#company/{{ $index }}">{{ x.company }}</a></td>
             <td>{{ x.divPerShare }}</td>  
             <td>{{ x.divYield }}</td>
             <td>{{ x.declaredDate }}</td>
@@ -28,7 +28,4 @@
           </tr>
           </tbody>
         </table>
-        </div>    
-        <script src="controller.js"></script>
-    </body>
-</html>
+        
