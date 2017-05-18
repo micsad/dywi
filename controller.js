@@ -13,7 +13,7 @@ app.config(function($routeProvider) {
     });
 });
 */
-   .when("/dywidenda2017/:companyName", {
+   .when("/dywidenda2017/:company", {
         templateUrl : "company.html",
         controller : "compCtrl"
     });
@@ -35,7 +35,7 @@ app.controller('compCtrl', function ($scope, $routeParams, $http) {
 
 app.controller('compCtrl', function ($scope, $routeParams, $http) {
     $http.get('dywidendy2017.json').success(function (data) {
-        $scope.dividend = data.dywidendy2017[$routeParams.companyName];
+        $scope.dividend = data.dywidendy2017[$routeParams.company];
     });
 
 });
