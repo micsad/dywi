@@ -8,6 +8,7 @@
           <thead>
               <tr>
                   <th>Firma</th>
+                  <th>Kod giełdowy</th>
                   <th>Kwota dywidendy</th>
                   <th>Stopa dywidendy</th>
                   <th>Dzień ustalenia</th>
@@ -18,7 +19,8 @@
           </thead>
           <tbody>
           <tr ng-repeat="x in dividends2017 | filter:query">
-              <td><a href="#dywidenda2017/{{ $index }}">{{ x.company }}</a></td>
+              <td><a href="#dywidenda2017/{{ x.company }}-{{ x.ticker}}">{{ x.company }}</a></td>
+            <td>{{ x.ticker }}</td>
             <td>{{ x.divPerShare }}</td>  
             <td>{{ x.divYield }}</td>
             <td>{{ x.declaredDate }}</td>
