@@ -19,7 +19,7 @@
           </thead>
           <tbody>
           <tr ng-repeat="x in dividends2017 | filter:query">
-              <td><a href="#dywidenda2017/{{ x.company }}">{{ x.company }}</a></td>
+              <td><a href="#dywidenda2017/{{ $index }}">{{ x.company }}</a></td>
             <td>{{ x.ticker }}</td>
             <td>{{ x.payout }}</td>  
             <td>{{ x.yield }}</td>
