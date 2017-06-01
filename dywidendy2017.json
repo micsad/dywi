@@ -292,7 +292,7 @@
   },
   {
     "ticker": "CCC",
-    "company": "",
+    "company": "CCC",
     "payout": "2.59 PLN",
     "exDate": "05-wrz-17",
     "payoutDate": "21-wrz-17",
@@ -302,7 +302,7 @@
   },
   {
     "ticker": "CCS",
-    "company": "",
+    "company": "CCS",
     "payout": "0.11 PLN",
     "exDate": "bd.",
     "payoutDate": "bd.",
@@ -332,7 +332,7 @@
   },
   {
     "ticker": "CEZ",
-    "company": "",
+    "company": "CEZ",
     "payout": "5.23 PLN",
     "exDate": "bd.",
     "payoutDate": "bd.",
@@ -532,7 +532,7 @@
   },
   {
     "ticker": "ERG",
-    "company": "",
+    "company": "ERG",
     "payout": "1.25 PLN",
     "exDate": "05-kwi-17",
     "payoutDate": "24-kwi-17",
@@ -642,7 +642,7 @@
   },
   {
     "ticker": "GPW",
-    "company": "",
+    "company": "GPW",
     "payout": "2.15 PLN",
     "exDate": "bd.",
     "payoutDate": "bd.",
@@ -652,7 +652,7 @@
   },
   {
     "ticker": "GTC",
-    "company": "",
+    "company": "GTC",
     "payout": "0.27 PLN",
     "exDate": "24-maj-17",
     "payoutDate": "12-cze-17",
@@ -702,7 +702,7 @@
   },
   {
     "ticker": "IMS",
-    "company": "",
+    "company": "IMS",
     "payout": "0.12 PLN",
     "exDate": "31-maj-17",
     "payoutDate": "20-cze-17",
@@ -812,7 +812,7 @@
   },
   {
     "ticker": "KGL",
-    "company": "",
+    "company": "KGL",
     "payout": "0.19 PLN",
     "exDate": "bd.",
     "payoutDate": "bd.",
@@ -922,7 +922,7 @@
   },
   {
     "ticker": "LPP",
-    "company": "",
+    "company": "LPP",
     "payout": "36.00 PLN",
     "exDate": "31-sie-17",
     "payoutDate": "20-wrz-17",
@@ -1022,7 +1022,7 @@
   },
   {
     "ticker": "MOL",
-    "company": "",
+    "company": "MOL",
     "payout": "8.45 PLN",
     "exDate": "08-maj-17",
     "payoutDate": "17-maj-17",
